@@ -1,0 +1,9 @@
+startup_message off 
+caption always
+caption string "%{kw}%-w%{wr}%n %t%{-}%+w"
+bindkey -k k3 prev 
+bindkey -k k4 next i
+screen -t root 0 sudo -i
+screen -t data 1 bash 
+screen -t work 2
+screen -t work 3
